@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.CustomInput {
+  @apply px-2 py-1 text-[1.5rem] text-black rounded-sm bg-gray-100;
+}
+
+.CustomTextArea {
+  @apply px-2 py-1 text-[0.9rem] text-black rounded-sm bg-gray-100;
+}
+
+.submitBtn {
+  @apply py-2 w-full rounded-md;
+}
